@@ -12,7 +12,7 @@
     <properties>
         <exam.version>3.0.1</exam.version>
         <url.version>1.5.2</url.version>
-        <felix.test.version>4.2.1</felix.test.version>
+        <felix.version>4.0.2</felix.version>
     </properties>
 
     <build>
@@ -98,7 +98,7 @@
         <dependency>
             <groupId>org.apache.felix</groupId>
             <artifactId>org.apache.felix.framework</artifactId>
-            <version>${felix.test.version}</version>
+            <version>${felix.version}</version>
             <scope>test</scope>
         </dependency>
 
